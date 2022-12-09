@@ -13,12 +13,12 @@ const deck ={"img//2-Foglet.png":2,
 			  };
 var player=0, comp=0,count = 0;
 btn.addEventListener('click', () => {
-	var a = Math.floor(Math.random() * 10);
-	var b = Math.floor(Math.random() * 10);
-	document.getElementById('c1').setAttribute("src", Object.keys(deck)[a]);
-    document.getElementById('c2').setAttribute("src", Object.keys(deck)[b]);
-    player += Object.values(deck)[a];
-    comp += Object.values(deck)[b];
+	var p1 = Math.floor(Math.random() * 10);
+	var c1 = Math.floor(Math.random() * 10);
+	document.getElementById('c1').setAttribute("src", Object.keys(deck)[p1]);
+    document.getElementById('c2').setAttribute("src", Object.keys(deck)[c1]);
+    player += Object.values(deck)[p1];
+    comp += Object.values(deck)[c1];
 	count++;
 	if(count==3)
 	{
