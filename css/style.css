@@ -14,13 +14,6 @@ flex-wrap: wrap;
 gap: 10px 10px;
 align-items:center;
 }
-#div2{
-display:flex;
-flex-direction: column;
-justify-content:space-evenly;
-align-items:center;
-gap: 10px 10px;
-}
 #c1,#c2{
 height:512px;
 width:341.33px;
@@ -36,7 +29,6 @@ color:white;
 }
 @media screen and (max-width: 1080px) {
 	#div1{flex-direction: column;}
-	#div2{flex-direction: column;}
 	#btn,#btn2,#score{font-size: 40px;}
 	html{background-repeat: repeat;}
 }
